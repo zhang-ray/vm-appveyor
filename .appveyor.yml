@@ -2,4 +2,4 @@ image: Visual Studio 2015
 
 on_finish:
   - ps: $blockRdp = $true;
-- ps: .\enable-rdp.ps1
+  - ps: .\enable-rdp.ps1
